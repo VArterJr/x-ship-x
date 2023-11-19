@@ -1,0 +1,17 @@
+{
+    "image1": {
+        "data": "hwQQABAAAAAAAAAAAAAAAPAAAAAAAPAA8P//APD//wAAHxEvHxEPAAAfEfEREQ8AAPAR8RHxAAAA8P////8AAAAAH/ERDwAAAAAf8REPAAAAAPDx8QAAAAAA8PHxAAAAAADwX/8AAAAAAABfDwAAAAAAAP8PAAAAAAAA8AAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "pcShip"
+    },
+    "image2": {
+        "data": "hwQQABAAAAAAAP///w8AAADw7u7u/gAAAPDu7u7+AAAA8O7u7v4AAADw7u7u/gAAAPDu7u7+AAAA8O7u7v4AAADw7u7u/gAAAPD/////AAAAT0REREQPAPBERERERPQA/////////w8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "npcShipBlob"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
