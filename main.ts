@@ -1,7 +1,8 @@
-let pcShip = sprites.create(assets.image`pcShip`, SpriteKind.Player)
-pcShip.setPosition(0, scene.screenHeight() / 2 + 1)
-let npcEnemyShip = sprites.create(assets.image`npcShipBlob`, SpriteKind.Enemy)
-npcEnemyShip.setPosition(scene.screenWidth() - 1, randint(0, scene.screenHeight()))
+let pcShipPlayer1 = sprites.create(assets.image`pcShip`, SpriteKind.Player)
+let pcShipPlayer2 = sprites.create(assets.image`npcShipBlob`, SpriteKind.Player)
+pcShipPlayer1.setPosition(5, scene.screenHeight() / 2 + 5)
+pcShipPlayer2.setPosition(scene.screenWidth() - 5, scene.screenHeight() / 2 + 5)
 forever(function () {
-    controller.moveSprite(pcShip)
+    controller.player1.moveSprite(pcShipPlayer1)
+    controller.player2.moveSprite(pcShipPlayer2)
 })

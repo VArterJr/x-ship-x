@@ -1,12 +1,13 @@
-pcShip = sprites.create(assets.image("""
+pcShipPlayer1 = sprites.create(assets.image("""
     pcShip
 """), SpriteKind.player)
-pcShip.set_position(0, (scene.screen_height() / 2 )+1)
-npcEnemyShip = sprites.create(assets.image("""
+pcShipPlayer2 = sprites.create(assets.image("""
     npcShipBlob
-"""), SpriteKind.enemy)
-npcEnemyShip.set_position(scene.screen_width()-1, randint(0, scene.screen_height()))
+"""), SpriteKind.player)
+pcShipPlayer1.set_position(0, scene.screen_height() / 2 + 5)
+pcShipPlayer2.set_position(scene.screen_width() - 5, scene.screen_height() / 2 + 5)
 
 def on_forever():
-    controller.move_sprite(pcShip)
+    controller.player1.move_sprite(pcShipPlayer2)
+    controller.player2.move_sprite(pcShipPlayer2)
 forever(on_forever)
