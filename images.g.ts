@@ -30,9 +30,9 @@ namespace myImages {
 . f f f f f f f f 4 4 f . . . . 
 f e e e e e e e f 4 4 f . . . . 
 f e e e e e e e f 4 4 f . . . . 
-f e e e e e e e f 4 4 f . . . . 
-f e e e e e e e f 4 4 f . . . . 
-f e e e e e e e f 4 4 f . . . . 
+f 5 e e e e e e f 4 4 f . . . . 
+f 5 5 e e e e e f 4 2 2 . . . . 
+f 5 e e e e e e f 4 4 f . . . . 
 f e e e e e e e f 4 4 f . . . . 
 f e e e e e e e f 4 4 f . . . . 
 . f f f f f f f f 4 4 f . . . . 
